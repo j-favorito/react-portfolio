@@ -18,8 +18,8 @@ function App() {
       <Router>
         <div className="background-image" style={{ ...background }}>
           <NavTabs />
-          <Route exact path="/" component={About} />
           <Route exact path="/react-portfolio" component={About} />
+          <Route exact path="/about" component={About} />
           <Route exact path="/education" component={Education} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
