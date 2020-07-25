@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "name": "Brewery Locator",
+        "image": "/images/mugs-bw.png",
+        "description": "Front-end website using jQuery",
+        "role": "Major: Wrote most of the JavaScript",
+        "link": "https://j-favorito.github.io/Project-1/"
+    },
+    {
+        "id": 1,
+        "name": "Wage Tracker",
+        "image": "/images/time-punch.png",
+        "description": "Full-stack web app using Node.js and MySQL",
+        "role": "Back-End: Created the tables and wrote the calls to the db.  Also applied the data sent and recieved to the front-end JavaScript",
+        "link": "https://time-tracker-v-2.herokuapp.com/login"
+    },    
+    {
+        "id": 2,
+        "name": "Character List",
+        "image": "/images/list-bw.png",
+        "description": "React app using states",
+        "role": "Complete",
+        "link": "https://j-favorito.github.io/employee-table/"
+    },    
+    {
+        "id": 3,
+        "name": "Budget Tracker",
+        "image": "/images/coins-bw.png",
+        "description": "Progressive web app using MongoDB(Mongoose & mLab)",
+        "role": "Back-End: Made the table function and made it a complete PWA",
+        "link": "https://thawing-shelf-90255.herokuapp.com/"
+    },    
+    {
+        "id": 4,
+        "name": "Burger App",
+        "image": "/images/burger-b.png",
+        "description": "Full-Stack web app",
+        "role": "Back-End: Wrote calls to database.  Also applied the data sent and recieved to the front-end JavaScript",
+        "link": "https://burger-maker-5000.herokuapp.com/"
+    }
+]

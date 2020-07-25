@@ -1,0 +1,15 @@
+.prof-pic{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.p-content{
+    font-size: 32px;
+    opacity: 80%;
+    background-color: lightgray;
+}
+
+.main-body{
+    margin-top: 20px;
+}

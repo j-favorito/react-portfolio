@@ -1,25 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+import About from './components/about/About';
+import Contact from './components/contact/Contact';
+import Education from './components/education/Education';
+import Projects from './components/projects/Projects';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import NavTabs from './components/navtabs/NavTabs';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Background from './images/background.jpg';
+
+const background = {
+  backgroundImage: `url(${Background})`
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <div className="background-image" style={{ ...background }}>
+          <NavTabs />
+          <Route exact path="/" component={About} />
+          <Route path="/education" component={Education} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/contact" component={Contact} />
+        </div>
+      </Router>
+    </>
   );
 }
 
