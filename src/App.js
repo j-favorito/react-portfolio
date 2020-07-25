@@ -20,9 +20,9 @@ function App() {
         <div className="background-image" style={{ ...background }}>
           <NavTabs />
           <Route exact path="/" component={About} />
-          <Route path="/education" component={Education} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/contact" component={Contact} />
+          <Route exact path="/education" component={Education} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/contact" component={Contact} />
         </div>
       </Router>
     </>
