@@ -18,7 +18,7 @@ function Projects() {
       {projects.map(project => (
         <div className="row project-card" key={project.id}>
           <div className="col-sm-2"></div>
-          <div className="col-sm-2 "><img className="project-img" alt={process.env.PUBLIC_URL + project.name} src={project.image} height="100px" width="100px" /></div>
+          <div className="col-sm-2 "><img className="project-img" alt={project.name} src={process.env.PUBLIC_URL + project.image} height="100px" width="100px" /></div>
           <p className="col-sm-2 project-item"><a href={project.link} className="project-link">{project.name}</a></p>
           <p className="col-sm-2 project-item">{project.description}</p>
           <p className="col-sm-2 project-item">{project.role}</p>
