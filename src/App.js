@@ -5,6 +5,7 @@ import Education from './components/education/Education';
 import Projects from './components/projects/Projects';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from './components/navtabs/NavTabs';
+import Certificate from './components/certificate/Certificate'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Background from './images/background.jpg';
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/react-portfolio" component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/education" component={Education} />
+          <Route exact path="/certificate" component={Certificate} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
         </div>

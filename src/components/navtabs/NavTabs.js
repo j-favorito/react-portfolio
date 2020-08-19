@@ -16,6 +16,11 @@ function NavTabs() {
         </NavLink>
         </li>
         <li className="nav-item">
+          <NavLink to="/certificate" className="nav-link nav-text">
+            Certificate
+        </NavLink>
+        </li>
+        <li className="nav-item">
           <NavLink to="/projects" className="nav-link nav-text">
             Projects
         </NavLink>
