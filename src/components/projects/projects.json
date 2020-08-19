@@ -12,11 +12,19 @@
         "name": "Wage Tracker",
         "image": "/images/time-punch.png",
         "description": "Full-stack web app using Node.js and MySQL",
-        "role": "Back-End: Created the tables and wrote the calls to the db.  Also applied the data sent and recieved to the front-end JavaScript",
+        "role": "Back-End: Created the tables and wrote the calls to the db.  Also applied the data sent and recieved to the front-end",
         "link": "https://time-tracker-v-2.herokuapp.com/login"
     },    
     {
         "id": 2,
+        "name": "Project Management",
+        "image": "/images/project-bw.png",
+        "description": "Full-stack React app using Node.js and MongoDB",
+        "role": "Back-End: Created the database and helped set up routes.  Also applied the data sent and recieved to the front-end",
+        "link": "https://project-management-app-1.herokuapp.com/"
+    },    
+    {
+        "id": 3,
         "name": "Character List",
         "image": "/images/list-bw.png",
         "description": "React app using states",
@@ -24,7 +32,7 @@
         "link": "https://j-favorito.github.io/employee-table/"
     },    
     {
-        "id": 3,
+        "id": 4,
         "name": "Budget Tracker",
         "image": "/images/coins-bw.png",
         "description": "Progressive web app using MongoDB(Mongoose & mLab)",
@@ -32,7 +40,7 @@
         "link": "https://thawing-shelf-90255.herokuapp.com/"
     },    
     {
-        "id": 4,
+        "id": 5,
         "name": "Burger App",
         "image": "/images/burger-b.png",
         "description": "Full-Stack web app",
