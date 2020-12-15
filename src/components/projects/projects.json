@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "Brewery Locator",
-        "image": "/images/mugs-bw.png",
+        "image": "/images/brewery-screen.png",
         "description": "Front-end website that incorporates Google's map API as well as a brewery API",
         "tech": "jQuery Pure",
         "link": "https://j-favorito.github.io/Project-1/"
@@ -10,7 +10,7 @@
     {
         "id": 1,
         "name": "Wage Tracker",
-        "image": "/images/time-punch.png",
+        "image": "/images/wage-screen.png",
         "description": "Full-stack web app that allows you to track your real time earnings based on your wage",
         "tech": "jQuery Bootstrap MySql Node.js Passport Express",
         "link": "https://time-tracker-v-2.herokuapp.com/login"
@@ -18,7 +18,7 @@
     {
         "id": 2,
         "name": "Project Management",
-        "image": "/images/project-bw.png",
+        "image": "/images/project-screen.png",
         "description": "Full-stack React app that allows users to keep track of their ongoing projects",
         "tech": "React React-Bootstrap Node.js MongoDB Auth0 Express",
         "link": "https://project-management-app-1.herokuapp.com/"
@@ -26,7 +26,7 @@
     {
         "id": 3,
         "name": "Character List",
-        "image": "/images/list-bw.png",
+        "image": "/images/character-screen.png",
         "description": "React app that can sort characters multiple ways",
         "tech": "React",
         "link": "https://j-favorito.github.io/employee-table/"
@@ -34,7 +34,7 @@
     {
         "id": 4,
         "name": "Budget Tracker",
-        "image": "/images/coins-bw.png",
+        "image": "/images/budget-screen.png",
         "description": "Progressive web app that allows you to keep track of money",
         "tech": "MongoDB Mongoose mLab Express",
         "link": "https://thawing-shelf-90255.herokuapp.com/"
@@ -42,7 +42,7 @@
     {
         "id": 5,
         "name": "Burger App",
-        "image": "/images/burger-b.png",
+        "image": "/images/burger-screen.png",
         "description": "Full-Stack web app that allows you to create burgers and mark if they are prepared or eaten",
         "tech": "jQuery MySql Handlebars Express",
         "link": "https://burger-maker-5000.herokuapp.com/"
