@@ -7,11 +7,11 @@ function About() {
     <div>
       <center>
         <div className="row main-body">
-          <div className="col-lg-1"></div>
-          <div className="col-lg-3">
+          <div className="col-xl-1"></div>
+          <div className="col-xl-3">
             <img src={profPic} alt="ProfilePic" className="prof-pic" />
           </div>
-          <div className="col-lg-7 p-content">
+          <div className="col-xl-7 p-content">
             Hello! My name is Joseph Favorito, you can call me Joe.
             I am an aspiring full-stack software engineer.
             Regarding front-end I have knowledge of HTML, CSS, and JavaScript as well as Bootstrap, Pure, and jQuery.
@@ -19,7 +19,7 @@ function About() {
             I am also capable of using MongoDB and React.
             I am a quick learner who is looking to gain as much knowledge as I can.
                   </div>
-          <div className="col-lg-1"></div>
+          <div className="col-xl-1"></div>
         </div>
         </center>
     </div>
