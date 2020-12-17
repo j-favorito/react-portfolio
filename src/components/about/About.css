@@ -1,12 +1,14 @@
 .prof-pic{
-    width: 300px;
-    height: 375px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
     border-style: ridge;
     margin-bottom: 10px;
 }
 
 .p-content{
-    font-size: 30px;
+    font-size: 32px;
     background-color: lightgray;
     border-style: ridge;
     padding-top: 8px;
