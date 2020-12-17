@@ -1,6 +1,10 @@
 .uoa-image{
     margin-top: 20px;
     margin-bottom: 15px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .ed-text{

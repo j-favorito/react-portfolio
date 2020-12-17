@@ -1,26 +1,29 @@
-import React from "react";
-import projects from "./projects.json"
-import './Projects.css'
+import React from 'react';
+import projects from './projects.json';
+import './Projects.css';
+import {Container,Row,Col} from 'react-bootstrap';
 
 
 
 function Projects() {
   return (
     <div>
-      <div className="row head-card">
-        <div className="col-md-3 "></div>
-        <h5 className="col-md-3 head-item">Link</h5>
-        <h5 className="col-md-3 head-item">Description</h5>
-        <h5 className="col-md-3 head-item">Tech</h5>
-      </div>
+      <Container>
+      <Row className="head-card">
+        <Col md="3"></Col>
+        <Col md="3" className="head-item">Link</Col>
+        <Col md="3" className="head-item">Description</Col>
+        <Col md="3" className="head-item">Tech</Col>
+      </Row>
       {projects.map(project => (
-        <div className="row project-card" key={project.id}>
-          <div className="col-md-3 "><img className="project-img" alt={project.name} src={process.env.PUBLIC_URL + project.image} height="100px" width="200px" /></div>
-          <p className="col-md-3 project-item"><a href={project.link} className="project-link">{project.name}</a></p>
-          <p className="col-md-3 project-item">{project.description}</p>
-          <p className="col-md-3 project-item">{project.tech}</p>
-        </div>
+        <Row className="row project-card" key={project.id}>
+          <Col md="3"><img className="project-img" alt={project.name} src={process.env.PUBLIC_URL + project.image} height="100px" width="200px" /></Col>
+          <Col md="3" className="project-item"><a href={project.link} className="project-link">{project.name}</a></Col>
+          <Col md="3" className="project-item">{project.description}</Col>
+          <Col md="3" className="project-item">{project.tech}</Col>
+        </Row>
       ))}
+      </Container>
     </div>
   );
 }
