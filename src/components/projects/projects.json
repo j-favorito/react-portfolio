@@ -12,7 +12,7 @@
         "name": "Wage Tracker",
         "image": "/images/wage-screen.png",
         "description": "Full-stack web app that allows you to track your real time earnings based on your wage",
-        "tech": "jQuery Bootstrap MySql Node.js Passport Express",
+        "tech": "jQuery Bootstrap MySQL Node.js Passport Express",
         "link": "https://time-tracker-v-2.herokuapp.com/login"
     },    
     {
