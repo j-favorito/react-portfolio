@@ -8,13 +8,7 @@ import {Container,Row,Col} from 'react-bootstrap';
 function Projects() {
   return (
     <div>
-      <Container>
-      <Row className="head-card">
-        <Col md="3"></Col>
-        <Col md="3" className="head-item">Link</Col>
-        <Col md="3" className="head-item">Description</Col>
-        <Col md="3" className="head-item">Tech</Col>
-      </Row>
+      <Container className="all-cards">
       {projects.map(project => (
         <Row className="row project-card" key={project.id}>
           <Col md="3"><img className="project-img" alt={project.name} src={process.env.PUBLIC_URL + project.image} /></Col>
